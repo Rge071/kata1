@@ -18,7 +18,7 @@ public class Kata1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Person person = new Person("Joel", LocalDate.of(2001, Month.APRIL,16)); 
+        Person person = new Person("Pepe", LocalDate.of(1999, Month.APRIL,22)); 
         System.out.println(person.getName() + " " + person.getAge());
     }
 }
